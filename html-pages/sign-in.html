@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>MovieSearch</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script
+      defer
+      type="module"
+      src="/movies-search-app/sign-in-script.js"
+    ></script>
+  </head>
+  <body>
+    <section class="nav">
+      <header class="nav__header">
+        <a href="/index.html">
+          <h1 class="nav__header__h1">MovieSEARCH</h1>
+        </a>
+      </header>
+      <nav class="nav__navbar">
+        <a href="#">Movies</a>
+        <a href="#">TV Shows</a>
+        <a href="#">Watchlist</a>
+
+        <form name="search-form">
+          <input type="text" name="search-todo" id="search-todo" required />
+        </form>
+        <a href="/html-pages/sign-in.html" class="user">Sign in</a>
+      </nav>
+    </section>
+    <main class="register-page">
+      <form name="register-form" class="register-form" action="/index.html">
+        <label for="user-name">Name:</label>
+        <input type="text" name="user-name" id="user-name" required />
+
+        <label for="user-email">Email:</label>
+        <input type="email" name="user-email" id="user-email" required />
+
+        <label for="user-password1">Password:</label>
+        <input
+          type="password"
+          name="user-password1"
+          id="user-password1"
+          required
+        />
+
+        <label for="user-password2">Re-enter password:</label>
+        <input
+          type="password"
+          name="user-password2"
+          id="user-password2"
+          required
+        />
+
+        <button>Create Your account</button>
+      </form>
+    </main>
+  </body>
+</html>

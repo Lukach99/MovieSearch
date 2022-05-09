@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15%;
+}
+
+.nav__navbar{
+    display: flex;
+    width: 60%;  
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.main-page{
+    padding: 0 15%;
+}
+
+.flex-wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.featured-movies{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 100%;
+    height: 450px;
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-color: cadetblue;
+    transition: all 0.5s ease-out;
+}
+
+.hide{
+    display: none;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+
+.discover{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.discover-list{
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    justify-content: space-between;
+    /* overflow: hidden; */
+}
+
+.discover-list-item{
+    width: 200px;
+    height: 400px;
+}
+
+.discover-list-item img{
+    width: 200px;
+    height: 300px;
+}
+
+.pick-genres{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.genre{
+    padding: 0 15px;
+}
+
+
+.register-form{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box{
+    background-color:aquamarine ;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 500px;
+    height: 450px;
+    overflow: auto;
+}
+
+.search-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 480px;
+    height: 150px;
+    background-color: coral;
+
+}
+
+.search-item__img{
+    width: 100px;
+    height: 140px;
+    
+}
+/* a{
+    display: block;
+}
+
+.movie__div{
+    width: 200px;
+    height: 400px;
+}
+
+.div__img{
+    width: 200px;
+    height: 300px;
+} */
